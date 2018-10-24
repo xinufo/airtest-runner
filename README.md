@@ -8,6 +8,17 @@
 
 ## 使用
 
+- 用例文件夹需要以“用例集”结尾才能识别
+- 脚本里的业务逻辑需要封装成runCase方法，签名如下
+
+```python
+def runCase(self, vars):
+    # 业务逻辑代码
+    pass
+```
+
+命令
+
 ```shell
 # 执行测试
 python runner.py YOUR_SCRIPT_DIR
