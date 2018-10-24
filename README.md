@@ -20,13 +20,14 @@ python report.py YOUR_LOG_DIR
 
 ```shell
 root
-├─report.py
-├─runner.py
-├─util.py
+├─report.py                # 生成报告
+├─runner.py                # 执行脚本
+├─summary_template.html    # 报告模板
+├─util.py                  # 工具类
 ├─交易用例集
-│      ├──交易失败    #图片存放目录
+│      ├──交易失败          #图片存放目录
 │      ├──交易成功
-│      ├──交易失败.py #测试用例
+│      ├──交易失败.py       #测试用例
 │      └──交易成功.py
 └─登录用例集
         ├──登录失败.py
